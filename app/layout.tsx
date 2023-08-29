@@ -27,7 +27,7 @@ export default function RootLayout({
           </Link>
         </header>
 
-        <main>{children}</main>
+        <main className='py-20'>{children}</main>
       </body>
     </html>
   );
