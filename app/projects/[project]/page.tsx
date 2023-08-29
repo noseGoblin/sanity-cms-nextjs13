@@ -9,5 +9,5 @@ export default async function Project({ params }: Props) {
 
   const project = await getProject(slug);
 
-  return <div>{project.name}</div>;
+  return <div className='min-h-screen '>{project.name}</div>;
 }
