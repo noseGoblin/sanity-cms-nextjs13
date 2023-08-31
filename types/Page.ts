@@ -7,7 +7,7 @@ export type Page = {
 
   title: string;
 
-  slue: string;
+  slug: string;
 
   content: PortableTextBlock[];
 };
