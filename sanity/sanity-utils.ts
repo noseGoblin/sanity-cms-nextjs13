@@ -30,3 +30,7 @@ export async function getProject(slug: string): Promise<Project> {
     { slug }
   );
 }
+
+export async function getPages() {}
+
+export async function getPage(slug: string) {}
